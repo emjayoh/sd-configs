@@ -1,4 +1,4 @@
-﻿name,prompt,negative_prompt
+name,prompt,negative_prompt
 Quality,"masterpiece, best quality","(lowres, worst quality, low quality, normal quality)"
 Default,"masterpiece, best quality","lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,artist name"
 NAiDefault,"masterpiece, best quality","text, lowres, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad anatomy, bad hands, error, missing fingers, extra digit, fewer digits, missing arms, long neck, Humpbacked"
@@ -9,7 +9,7 @@ Face enhance,"delicate, beautiful, beautiful face, beautiful eyes, beautiful gir
 Picture enhance, "high resolution illustration, colorful, 8k wallpaper, highres",
 Light enhance, "Cinematic light, ray tracing",
 Enhanced details, "hyper detailed, ultra-detailed",
-Negative extension,"artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand)"
+Negative extension,,"artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand)"
 Ultra-high detail,"8k wallpaper,(best quality:1.12),(detailed:1.12),(intricate:1.12),(ultra-detailed:1.12),(highres:1.12)",
 Let go of the skirt,"","(grab clothes, grab dress, grab skirt)"
 Hide palms,"","lower arms,hands,palms"
