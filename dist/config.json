@@ -64,7 +64,7 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120,
-    "sd_model_checkpoint": "perfectWorld_v2Baked.safetensors [79e42fb744]",
+    "sd_model_checkpoint": "anything-v4.5-vae-swapped.safetensors [a504b5b137]",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
     "sd_vae": "Automatic",
