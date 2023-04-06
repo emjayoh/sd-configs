@@ -1,3 +1,5 @@
+Old Readme
+
 For Kaggle
 Copy and edit https://www.kaggle.com/code/camenduru/stable-diffusion-webui-kaggle (to get the old environment required) then use File>Import the fast release.ipynb
 
