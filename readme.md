@@ -1,10 +1,23 @@
 Old Readme
 
-For Kaggle
-Copy and edit https://www.kaggle.com/code/camenduru/stable-diffusion-webui-kaggle (to get the old environment required) then use File>Import the fast release.ipynb
+# For Kaggle
+### New Python 3.10.10 Notebook
+testing branch for the latest notebook, use `!git clone -b 3.10` for example for cloning branch
 
-For Colab
+|  Link | Python Version | Readme Page
+| --- | --- | --- | 
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/roykent/stablediffusionwebui-configured) | 3.7.12 | [Readme](https://github.com/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/readme.md)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/roykent/automatic1111-s-stable-diffusion-webui-configured) | 3.10.10 | [Readme](https://github.com/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/readme.md)
 
+
+# For Colab
+---
+|  Link | Function or Name | Readme Page
+| --- | --- | --- | 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/INSTALL_UPDATE_ConfigDrive_Colab_Kaggle.ipynb) | First-time run-first. Or updating extensions.| [Readme](https://github.com/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/readme.md)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/RUN_ConfigDrive_Colab_Kaggle.ipynb) | For running WebUI | [Readme](https://github.com/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/readme.md)
+
+Old Link
 Install and Update Notebook:  https://colab.research.google.com/drive/1mPw7WjKz16LTOpKCxFdLs_H5_CmPPiaJ?usp=sharing
 
 Run Notebook:
