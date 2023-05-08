@@ -2,12 +2,40 @@ Old Readme
 
 # For Kaggle
 ### New Python 3.10.10 Notebook
-testing branch for the latest notebook, use `!git clone -b 3.10` for example for cloning branch
 
 |  Link | Python Version | Readme Page
 | --- | --- | --- | 
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/roykent/stablediffusionwebui-configured) | 3.7.12 | [Readme](https://github.com/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/readme.md)
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/roykent/automatic1111-s-stable-diffusion-webui-configured) | 3.10.10 | [Readme](https://github.com/ark5mith/stable-diffusion-webui-colab/blob/community/ark5mith/readme.md)
+
+<img width="239" alt="image" src="https://user-images.githubusercontent.com/115693126/236795810-5f5595a8-e683-4653-9118-a47b0a713194.png">
+
+Use github branch to have separate config
+My default Python 3.7.12 on Camenduru v2.0 notebook use the branch `v2.0` which also the `main`
+
+For the latest WebUI in kaggle with Python 3.10.10 copied from [RogueWild]() i use `rw10` branch
+Using variable for ease of use. Switching by just typing which version.
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/115693126/236796150-ebad641a-a9e5-4fef-945e-c724129482b2.png">
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/115693126/236796384-8e28e747-2995-4cba-8994-911f72ca3ce1.png">
+
+```Python
+webui_settings = "https://github.com/ark5mith/sd-configs"
+webui_settings_branch = "rw10" #other branch from my repo is "main" or "v2.0"
+
+def use_config():
+    %cd $install_path/stable-diffusion-webui
+    if not os.path.exists(f"{install_path}/stable-diffusion-webui/tmp"):
+    # do something
+        !mkdir -p tmp
+    %cd tmp
+    if not os.path.exists(f"{install_path}/stable-diffusion-webui/sd-configs"):
+        !git clone -b $webui_settings_branch $webui_settings sd-configs
+        !cp -rf sd-configs/dist/* $install_path/stable-diffusion-webui
+
+```
+
+
+
 
 
 # For Colab
